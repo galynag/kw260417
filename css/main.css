@@ -39,28 +39,37 @@ h3 {
   font-style: normal;
 }
 
+ .position-window {
+   margin: 20px auto;
+   float: none;
+   width: 975px;
+   position: relative;
+ }
+
+ img.left, img.right {
+   position: absolute;
+   top: 111px;
+   z-index: 99;
+ }
+
+ img.left {
+   left: -25.5px;
+ }
+
+ img.right  {
+   right: -24.5px;
+ }
+
 .slider {
   margin: 20px auto;
-  padding: 33px 25px 0 25px;
-  width: 1027.5px;
+  padding: 33px 0 0 0;
+  width: 981px;
   height: 488px;
   overflow: hidden;
   position: relative;
 }
 
-img.left, img.right {
-  position: absolute;
-  top: 111px;
-  z-index: 99;
-}
 
-img.left {
-  left: 3.5px;
-}
-
-img.right  {
-  right: 1.5px;
-}
 
 .slider-group {
   margin: auto;
