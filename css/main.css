@@ -56,6 +56,7 @@ h3 {
    left: -25.5px;
  }
 
+
  img.right  {
    right: -24.5px;
  }
@@ -74,8 +75,12 @@ h3 {
 .slider-group {
   margin: auto;
   height: 455px;
-  width: 1800px;
+  width: 1300px;
   border: 1px solid lightgrey;
+}
+
+#slider-group {
+	transition: all ease 1s;
 }
 
 .slider-item {

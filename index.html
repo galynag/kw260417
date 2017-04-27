@@ -10,11 +10,11 @@
       <h1>Обязательно добавьте свой заказ</h1>
     </header>
     <div class="position-window">
-      <img class='left' src='img/arrow_left.png' alt=''>
-      <img class='right' src='img/arrow_right.png' alt=''>
+      <img class='left' onclick='sliderLeft()' src='img/arrow_left.png' alt=''>
+      <img class='right' onclick='sliderRight()' src='img/arrow_right.png' alt=''>
     </div>
     <div class='slider'>
-      <div class='slider-group'>
+      <div class='slider-group' id='slider-group'>
 
         <div class='slider-item' id='turb'>
             <span class='new'>новинка</span>
@@ -91,5 +91,6 @@
       </div>
       <div class='clearfix'></div>
     </div>
+    <script src="js/js-main.js"></script>
   </body>
 </html>
